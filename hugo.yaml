@@ -1,0 +1,70 @@
+baseURL: "https://www.yuncpa.tw/"
+locale: "zh-TW"
+defaultContentLanguage: "zh"
+title: "YUN CPA 稅務與進修知識庫"
+theme: ["PaperMod"]
+
+pagination:
+  pagerSize: 10
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - identifier: posts
+      name: 稅務文章
+      url: /posts/
+      weight: 10
+    - identifier: laws
+      name: 法令與函釋
+      url: /laws/
+      weight: 20
+    - identifier: courses
+      name: 課程講義
+      url: /courses/
+      weight: 30
+    - identifier: categories
+      name: 分類
+      url: /categories/
+      weight: 40
+    - identifier: tags
+      name: 標籤
+      url: /tags/
+      weight: 50
+
+params:
+  env: production
+  title: "YUN CPA 稅務與進修知識庫"
+  description: "整理稅務文章、法令與函釋、課程講義及工作中常用的實務資料。"
+  author: "YUN CPA"
+  defaultTheme: auto
+  disableThemeToggle: false
+  mainSections: ["posts", "laws", "courses"]
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  UseHugoToc: true
+  showtoc: true
+  tocopen: true
+  ShowRssButtonInSectionTermList: true
+  homeInfoParams:
+    Title: "YUN CPA 稅務與進修知識庫"
+    Content: "把重要的稅務知識，整理成日後找得到的答案。收錄稅務文章、法令與函釋及課程講義。"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+copyright: "© YUN CPA 知識庫。內容供一般資訊與學習使用，不構成特定個案之稅務或法律意見。"

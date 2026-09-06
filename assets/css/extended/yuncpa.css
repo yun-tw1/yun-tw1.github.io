@@ -1,0 +1,63 @@
+:root {
+  --theme: rgb(248, 250, 248);
+  --entry: rgb(255, 255, 255);
+  --primary: rgb(23, 46, 40);
+  --secondary: rgb(94, 112, 105);
+  --tertiary: rgb(224, 235, 230);
+  --content: rgb(30, 48, 43);
+  --hljs-bg: rgb(23, 59, 50);
+  --code-bg: rgb(232, 241, 237);
+  --border: rgb(216, 228, 223);
+}
+
+.dark {
+  --theme: rgb(17, 29, 26);
+  --entry: rgb(23, 40, 35);
+  --primary: rgb(231, 242, 237);
+  --secondary: rgb(169, 190, 181);
+  --tertiary: rgb(40, 65, 57);
+  --content: rgb(218, 231, 225);
+  --code-bg: rgb(34, 55, 48);
+  --border: rgb(51, 76, 67);
+}
+
+.logo a,
+.post-title,
+.first-entry .entry-header h1 {
+  color: rgb(18, 74, 61);
+}
+
+.dark .logo a,
+.dark .post-title,
+.dark .first-entry .entry-header h1 {
+  color: rgb(180, 226, 209);
+}
+
+.first-entry {
+  border: 0;
+  background: linear-gradient(135deg, rgb(18, 60, 52), rgb(31, 107, 89));
+  box-shadow: 0 20px 50px rgba(18, 60, 52, .16);
+}
+
+.first-entry .entry-header h1,
+.first-entry .entry-content,
+.first-entry .entry-footer {
+  color: white;
+}
+
+.post-entry {
+  border-color: var(--border);
+  box-shadow: 0 10px 30px rgba(18, 60, 52, .05);
+}
+
+.post-content blockquote {
+  border-inline-start-color: rgb(31, 107, 89);
+  background: var(--code-bg);
+  border-radius: 0 10px 10px 0;
+  padding-block: 12px;
+}
+
+.toc {
+  border-color: var(--border);
+  background: var(--entry);
+}
