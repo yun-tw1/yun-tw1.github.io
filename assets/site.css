@@ -182,6 +182,7 @@ a { color: inherit; }
   font-weight: 800;
 }
 
+.article-card h2,
 .article-card h3 {
   margin: 0;
   color: var(--deep);
@@ -258,6 +259,175 @@ a { color: inherit; }
 .empty-state strong { display: block; color: var(--deep); font-size: 1.08rem; }
 .empty-state p { margin: 7px 0 0; }
 
+.series-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.series-card {
+  display: grid;
+  grid-template-columns: 74px minmax(0, 1fr) auto;
+  gap: 22px;
+  align-items: center;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.series-card:hover { border-color: #a8cabe; }
+.series-card.is-deleted { background: rgba(255,255,255,.55); }
+
+.series-no {
+  color: var(--gold);
+  font-size: 1.15rem;
+  font-weight: 900;
+  letter-spacing: .04em;
+}
+
+.series-card h2,
+.series-card h3 { margin: 0; color: var(--deep); font-size: 1.08rem; }
+.series-card p { margin: 3px 0 0; color: var(--muted); font-size: .9rem; }
+.series-status { color: var(--green); font-size: .82rem; font-weight: 800; }
+.is-deleted .series-status { color: var(--muted); }
+
+.law-page { max-width: 940px; }
+
+.law-hero {
+  padding: clamp(28px, 5vw, 48px);
+  border-radius: 24px;
+  color: white;
+  background: var(--deep);
+  box-shadow: var(--shadow);
+}
+
+.law-hero .kicker { margin-bottom: 10px; }
+.law-hero h1 { margin: 0; font-size: clamp(1.85rem, 5vw, 3.35rem); line-height: 1.2; letter-spacing: -.035em; }
+.law-hero p { max-width: 700px; margin: 14px 0 0; color: #d8e9e3; }
+
+.article-switcher {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 7px;
+  margin: 20px 0 34px;
+}
+
+.article-switcher a {
+  padding: 9px 6px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--muted);
+  background: var(--surface);
+  font-size: .82rem;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+
+.article-switcher a:hover,
+.article-switcher a[aria-current="page"] { color: white; border-color: var(--green); background: var(--green); }
+
+.notion-content {
+  padding: clamp(24px, 5vw, 52px);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 12px 34px rgba(18, 60, 52, .05);
+}
+
+.notion-content > *:first-child { margin-top: 0; }
+.notion-content > *:last-child { margin-bottom: 0; }
+.notion-content h2 { margin: 2.35em 0 .7em; padding-top: .3em; color: var(--deep); font-size: clamp(1.35rem, 3vw, 1.8rem); line-height: 1.35; }
+.notion-content h3 { margin: 1.8em 0 .6em; color: var(--green); font-size: 1.16rem; line-height: 1.45; }
+.notion-content h4 { margin: 1.5em 0 .5em; color: var(--deep); }
+.notion-content p { margin: .7em 0; }
+.notion-content ul,
+.notion-content ol { margin: .7em 0; padding-left: 1.65em; }
+.notion-content li { margin: .35em 0; }
+.notion-content li > ul,
+.notion-content li > ol { margin-top: .3em; }
+.notion-content a { color: var(--green); overflow-wrap: anywhere; }
+.notion-content hr { height: 1px; margin: 2rem 0; border: 0; background: var(--line); }
+.notion-content img { display: block; max-width: 100%; height: auto; margin: 1.4rem auto; border: 1px solid var(--line); border-radius: 12px; }
+.notion-content figure { margin: 1.6rem 0; }
+.notion-content figcaption { margin-top: .6rem; color: var(--muted); font-size: .84rem; text-align: center; }
+.notion-content blockquote { margin: 1.2rem 0; padding: 1px 0 1px 1.15rem; border-left: 4px solid var(--gold); color: #384640; }
+.notion-content mark { padding: .05em .16em; border-radius: 3px; }
+.highlight-yellow,
+.highlight-yellow_background,
+.block-color-yellow_background { background: #fff1b8; }
+.highlight-blue,
+.highlight-blue_background,
+.block-color-blue_background { background: #e2f0fb; }
+.highlight-red,
+.highlight-red_background { background: #fae8e5; }
+.highlight-green,
+.highlight-teal,
+.highlight-teal_background,
+.block-color-teal_background { background: #e1f2e9; }
+.highlight-gray,
+.block-color-gray_background { background: #f2f4f3; }
+.block-color-brown_background { background: #f5ede8; }
+.block-color-orange_background { background: #fbebde; }
+
+.callout {
+  display: flex;
+  gap: 13px;
+  margin: 1.2rem 0;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--gold-soft);
+}
+
+.callout .icon::before { content: attr(data-emoji); }
+.callout p:first-child { margin-top: 0; }
+.callout p:last-child { margin-bottom: 0; }
+.deleted-law { border-style: dashed; background: #f2f4f3; }
+
+.table_of_contents {
+  margin: 1.5rem 0 2rem;
+  padding: 17px 20px;
+  border-radius: 14px;
+  background: var(--gold-soft);
+}
+
+.table_of_contents::before { content: "本頁目錄"; display: block; margin-bottom: 8px; color: var(--deep); font-size: .82rem; font-weight: 900; letter-spacing: .08em; }
+.table_of_contents-item { padding: 3px 0; }
+.table_of_contents-link { text-decoration: none; }
+.table_of_contents-indent-1 { padding-left: 1rem; }
+.table_of_contents-indent-2 { padding-left: 2rem; }
+
+.collection-content-wrapper,
+.notion-content > div:has(> table) { max-width: 100%; overflow-x: auto; }
+
+.notion-content table { width: 100%; min-width: 560px; margin: 1.25rem 0; border-collapse: collapse; font-size: .9rem; }
+.notion-content th,
+.notion-content td { padding: 10px 12px; border: 1px solid var(--line); vertical-align: top; text-align: left; }
+.notion-content th { color: var(--deep); background: var(--green-soft); font-weight: 800; }
+.notion-content .column-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.notion-content details { margin: .8rem 0; padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; }
+.notion-content summary { cursor: pointer; color: var(--deep); font-weight: 800; }
+
+.source-note {
+  margin-top: 24px;
+  padding: 20px 22px;
+  border-left: 4px solid var(--green);
+  border-radius: 0 12px 12px 0;
+  color: var(--muted);
+  background: var(--green-soft);
+  font-size: .88rem;
+}
+
+.source-note strong { color: var(--deep); }
+.source-note p { margin: 4px 0; }
+.source-note a { color: var(--green); font-weight: 750; }
+
+.law-pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 26px; }
+.law-pager a { padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; color: var(--green); background: white; font-size: .88rem; font-weight: 800; text-decoration: none; }
+
 .site-footer {
   margin-top: 68px;
   padding-top: 24px;
@@ -272,6 +442,9 @@ a { color: inherit; }
   .page-wrap { padding-top: 24px; }
   .intro { grid-template-columns: 1fr; }
   .category-grid { grid-template-columns: 1fr; }
+  .series-card { grid-template-columns: 60px minmax(0, 1fr); }
+  .series-status { grid-column: 2; }
+  .notion-content .column-list { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 520px) {
@@ -280,6 +453,9 @@ a { color: inherit; }
   .intro { padding: 27px 22px; border-radius: 21px; }
   .article-card { grid-template-columns: 1fr; }
   .arrow { width: 42px; height: 42px; }
+  .article-switcher { grid-template-columns: repeat(3, 1fr); }
+  .notion-content { padding: 22px 18px; }
+  .series-card { padding: 19px 17px; gap: 12px; }
 }
 
 @media print {
