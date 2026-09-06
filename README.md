@@ -5,5 +5,6 @@
 - 稅務文章：`content/posts`
 - 法令與函釋：`content/laws`
 - 課程講義：`content/courses`
+- 實務工具：`content/tools`
 
 推送到 `main` 分支後，GitHub Pages 會自動建置與發布網站。

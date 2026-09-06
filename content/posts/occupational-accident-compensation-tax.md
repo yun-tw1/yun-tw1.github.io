@@ -11,6 +11,8 @@ tags:
   - 職業災害
   - 薪資所得
 draft: false
+aliases:
+  - /articles/occupational-accident-compensation-tax.html
 ---
 
 ## 一句話摘要

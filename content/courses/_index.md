@@ -1,6 +1,8 @@
 ---
 title: "課程講義"
 description: "將上課內容整理為主題筆記與實務提醒。"
+aliases:
+  - /categories/courses.html
 ---
 
 新的課程講義會依主題加入此分類。

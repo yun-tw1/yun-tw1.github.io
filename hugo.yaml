@@ -25,14 +25,18 @@ menu:
       name: 課程講義
       url: /courses/
       weight: 30
+    - identifier: tools
+      name: 實務工具
+      url: /tools/
+      weight: 40
     - identifier: categories
       name: 分類
       url: /categories/
-      weight: 40
+      weight: 50
     - identifier: tags
       name: 標籤
       url: /tags/
-      weight: 50
+      weight: 60
 
 params:
   env: production
@@ -41,7 +45,7 @@ params:
   author: "YUN CPA"
   defaultTheme: auto
   disableThemeToggle: false
-  mainSections: ["posts", "laws", "courses"]
+  mainSections: ["posts", "laws", "courses", "tools"]
   ShowReadingTime: true
   ShowWordCount: true
   ShowPostNavLinks: true
