@@ -21,6 +21,22 @@
   --border: rgb(51, 76, 67);
 }
 
+body {
+  font-family: "Noto Sans TC", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+  font-weight: 400;
+}
+
+.logo a,
+.first-entry .entry-header h1,
+.post-entry .entry-header h2,
+.post-title,
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+
 .logo a,
 .post-title,
 .first-entry .entry-header h1 {
@@ -34,9 +50,16 @@
 }
 
 .first-entry {
+  min-height: 220px;
   border: 0;
   background: linear-gradient(135deg, rgb(18, 60, 52), rgb(31, 107, 89));
   box-shadow: 0 20px 50px rgba(18, 60, 52, .16);
+}
+
+@media screen and (max-width: 768px) {
+  .first-entry {
+    min-height: 180px;
+  }
 }
 
 .first-entry .entry-header h1,
@@ -62,15 +85,30 @@
   background: var(--entry);
 }
 
-/* Article reading layout: a quiet, fixed table of contents on wide screens. */
-@media screen and (min-width: 1260px) {
+/* Article reading layout: content and TOC share one responsive grid. */
+@media screen and (min-width: 1101px) {
+  body:not(.list) .main {
+    max-width: calc(720px + 260px + 48px + var(--gap) * 2);
+  }
+
+  .post-single {
+    display: grid;
+    grid-template-columns: minmax(0, 720px) minmax(210px, 260px);
+    column-gap: 48px;
+    align-items: start;
+  }
+
+  .post-single > :not(details.toc) {
+    grid-column: 1;
+  }
+
   .post-single > details.toc {
-    position: fixed;
-    z-index: 2;
-    top: calc(var(--header-height) + 28px);
-    left: max(24px, calc(50vw - 610px));
-    width: 220px;
-    max-height: calc(100vh - var(--header-height) - 56px);
+    grid-column: 2;
+    grid-row: 1 / span 20;
+    position: sticky;
+    top: calc(var(--header-height) + 24px);
+    width: 100%;
+    max-height: calc(100vh - var(--header-height) - 48px);
     margin: 0;
     overflow-y: auto;
     background: transparent;
@@ -106,6 +144,19 @@
 
   .post-single > details.toc a:hover {
     color: rgb(18, 74, 61);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .post-single {
+    max-width: 720px;
+    margin-inline: auto;
+  }
+
+  .post-single > details.toc {
+    position: static;
+    max-height: none;
+    overflow: visible;
   }
 }
 
