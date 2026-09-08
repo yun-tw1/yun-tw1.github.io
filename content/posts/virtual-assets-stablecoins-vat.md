@@ -1,7 +1,8 @@
 ---
 title: "虛擬資產及穩定幣銷售不課徵營業稅"
-date: 2026-09-03
-lastmod: 2026-09-08
+date: 2026-09-08T08:33:01+08:00
+lastmod: 2026-09-08T08:47:11+08:00
+source_date: 2026-09-03
 description: "財政部核釋，營業人銷售《虛擬資產服務法》所定虛擬資產及穩定幣，不屬營業稅課稅範圍；服務費、手續費及 NFT 交易仍應分別判斷。"
 summary: "財政部核釋，營業人銷售《虛擬資產服務法》所定虛擬資產及穩定幣，不屬營業稅課稅範圍；服務費、手續費及 NFT 交易仍應分別判斷。"
 categories:
@@ -29,9 +30,9 @@ draft: false
 
 ## 法律依據
 
-- 財政部 115 年 9 月 3 日台財稅字第 11504611390 號令
-- 加值型及非加值型營業稅法
-- 《虛擬資產服務法》第 3 條第 1 款及第 6 款（新聞稿援引）
+- [財政部115年9月3日台財稅字第11504611390號令（行政院公報）](https://gazette.nat.gov.tw/egFront/eguploadpubWrapper?metaid=168088&file=/EG_FileManager/eguploadpub/eg032164/ch04/type2/gov30/num6/Eg.htm)
+- [虛擬資產服務法第 3 條第 1 款及第 6 款（金管會主管法規系統）](https://law.fsc.gov.tw/LawContent.aspx?id=GL004301)
+- [稅捐稽徵法第 48 條之 1（全國法規資料庫）](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340001&flno=48-1)
 
 ## 涉及概念
 
@@ -69,3 +70,7 @@ draft: false
 ## 來源
 
 - [財政部賦稅署新聞稿](https://www.dot.gov.tw/singlehtml/ch26?cntId=a08063addb414f0288216d5f17a7c680)
+- 原新聞稿日期：2026 年 9 月 3 日
+- 本站發布時間：2026 年 9 月 8 日 08:33（臺灣時間）
+
+> **法律適用備註：**本文所引法令，以本站發布日已公布並生效之規定為準；後續法令如有修正，應以最新公布施行內容為準。
