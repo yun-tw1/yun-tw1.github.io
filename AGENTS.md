@@ -43,7 +43,8 @@ hugo server -D
 - 從網頁建立 Markdown 時，先確認使用者要「忠實整理」還是「摘要改寫」；未指定時不得把 AI 摘要當成原文。
 - 若網頁內容、已發布內容與本機 Markdown 不一致，先列出差異並詢問哪一份是準確版本，不得自行同步或選擇其一覆蓋。
 - Markdown 標記（例如 `##`、`**`、連結及 front matter）在網頁上會轉為標題、粗體、超連結及頁面資料；呈現方式可以不同，但正文文字不得因此改寫。
-- 製作網站發布版時，刪除只供 Obsidian 使用的「所屬 MOC」段落及其清單；這項刪除不影響 front matter 的 `tags`，也不得連帶刪除其他正文。
+- 製作網站發布版時，所有 Obsidian 專用 MOC 資訊均不得出現在網站文章中。除刪除「所屬 MOC」段落及其清單外，正文、相關項目或其他區塊內的「綜合所得稅 MOC」、「營利事業所得稅 MOC」、「營業稅 MOC」、「遺產及贈與稅 MOC」、「稅務新聞稿 MOC」及其他名稱以「MOC」結尾的標題、清單或文字也必須刪除。
+- 刪除 MOC 資訊不影響 front matter 的 `tags`，也不得連帶刪除法律依據、相關概念、官方來源或其他正文。
 
 ```powershell
 hugo new content posts/example-article.md
