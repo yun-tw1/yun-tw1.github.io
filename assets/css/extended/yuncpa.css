@@ -85,15 +85,87 @@ body {
   background: var(--entry);
 }
 
+/* Give long articles the calm rhythm of a reading page. */
+.post-single .post-header {
+  margin: 32px auto 34px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.post-single .breadcrumbs {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.post-single .post-title {
+  font-size: clamp(32px, 3.4vw, 44px);
+  line-height: 1.4;
+  letter-spacing: .025em;
+  text-wrap: balance;
+}
+
+.post-single .post-description {
+  max-width: 36em;
+  margin: 16px auto 0;
+  color: var(--secondary);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.post-single .post-meta {
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.post-single .post-content {
+  margin: 0 0 38px;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.post-single .post-content p:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+
+.post-single .post-content ol:not(:last-child),
+.post-single .post-content ul:not(:last-child) {
+  margin-bottom: 1.4em;
+}
+
+.post-single .post-content h2 {
+  margin: 2.5em 0 .8em;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  color: var(--primary);
+  font-size: clamp(26px, 2.5vw, 32px);
+  line-height: 1.45;
+  scroll-margin-top: 24px;
+}
+
+.post-single .post-content > h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.post-single .post-content h3 {
+  margin: 1.8em 0 .65em;
+  color: var(--primary);
+  font-size: 23px;
+  line-height: 1.5;
+  scroll-margin-top: 24px;
+}
+
 /* Article reading layout: content and TOC share one responsive grid. */
 @media screen and (min-width: 1101px) {
   body:not(.list) .main {
-    max-width: calc(720px + 260px + 48px + var(--gap) * 2);
+    max-width: calc(680px + 240px + 48px + var(--gap) * 2);
   }
 
   .post-single {
     display: grid;
-    grid-template-columns: minmax(0, 720px) minmax(210px, 260px);
+    grid-template-columns: minmax(0, 680px) minmax(210px, 240px);
     column-gap: 48px;
     align-items: start;
   }
@@ -149,7 +221,7 @@ body {
 
 @media screen and (max-width: 1100px) {
   .post-single {
-    max-width: 720px;
+    max-width: 680px;
     margin-inline: auto;
   }
 
@@ -252,8 +324,27 @@ body {
 }
 
 @media screen and (max-width: 620px) {
-  .post-title {
+  .post-single .post-title {
     font-size: 32px;
+  }
+
+  .post-single .post-header {
+    margin-top: 20px;
+    padding-bottom: 24px;
+  }
+
+  .post-single .breadcrumbs {
+    margin-bottom: 22px;
+  }
+
+  .post-single .post-content {
+    font-size: 17px;
+    line-height: 1.85;
+  }
+
+  .post-single .post-content h2 {
+    margin-top: 2.1em;
+    padding-top: 20px;
   }
 
   .author-card {
