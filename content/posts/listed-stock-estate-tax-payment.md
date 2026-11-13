@@ -1,5 +1,7 @@
 ---
 title: "上市櫃股票抵繳遺產稅之限額計算"
+tax_types:
+  - 遺產及贈與稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

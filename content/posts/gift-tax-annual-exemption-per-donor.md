@@ -1,5 +1,7 @@
 ---
 title: "贈與稅免稅額按贈與人全年合計"
+tax_types:
+  - 遺產及贈與稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

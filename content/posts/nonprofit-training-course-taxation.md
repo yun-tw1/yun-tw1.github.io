@@ -1,5 +1,7 @@
 ---
 title: "機關團體訓練課程收入屬銷售貨物或勞務"
+tax_types:
+  - 營利事業所得稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

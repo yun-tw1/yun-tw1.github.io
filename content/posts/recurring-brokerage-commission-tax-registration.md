@@ -1,5 +1,7 @@
 ---
 title: "個人經常仲介媒合取得佣金應辦稅籍登記"
+tax_types:
+  - 營業稅
 date: 2026-09-30
 lastmod: 2026-11-13
 draft: false

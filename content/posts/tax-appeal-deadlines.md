@@ -1,5 +1,7 @@
 ---
 title: "稅捐復查與訴願期限起算"
+tax_types:
+  - 稅捐稽徵法
 date: 2026-09-30
 lastmod: 2026-11-13
 draft: false

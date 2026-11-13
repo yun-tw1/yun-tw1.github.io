@@ -1,5 +1,7 @@
 ---
 title: "長照特約交通接送服務免徵營業稅"
+tax_types:
+  - 營業稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

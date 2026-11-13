@@ -1,5 +1,7 @@
 ---
 title: "專任委託違約金不得列房地合一必要費用"
+tax_types:
+  - 房地合一－個人
 date: 2026-09-08
 lastmod: 2026-09-15
 draft: false

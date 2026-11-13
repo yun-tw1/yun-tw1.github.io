@@ -1,5 +1,7 @@
 ---
 title: "欠稅人對第三人債權之行政執行"
+tax_types:
+  - 稅捐稽徵法
 date: 2026-09-30
 lastmod: 2026-11-13
 draft: false

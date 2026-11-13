@@ -1,5 +1,7 @@
 ---
 title: "抵押權所擔保債權應按實際未償金額申報遺產"
+tax_types:
+  - 遺產及贈與稅
 date: 2026-09-30
 lastmod: 2026-11-13
 draft: false

@@ -1,5 +1,7 @@
 ---
 title: "離婚後重複列報子女免稅額認定順序"
+tax_types:
+  - 個人綜合所得稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

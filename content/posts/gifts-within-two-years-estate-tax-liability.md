@@ -1,5 +1,7 @@
 ---
 title: "死亡前二年贈與財產由受贈人按比例負擔遺產稅"
+tax_types:
+  - 遺產及贈與稅
 date: 2026-10-16
 lastmod: 2026-11-13
 draft: false

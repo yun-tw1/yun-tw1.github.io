@@ -1,5 +1,7 @@
 ---
 title: "房屋無償供營業使用仍應設算租賃收入"
+tax_types:
+  - 個人綜合所得稅
 date: 2026-09-14
 lastmod: 2026-11-13
 draft: false

@@ -1,5 +1,7 @@
 ---
 title: "指定身故受益人保險金之遺產稅判斷"
+tax_types:
+  - 遺產及贈與稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

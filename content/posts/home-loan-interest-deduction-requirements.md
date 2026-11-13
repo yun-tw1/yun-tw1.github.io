@@ -1,5 +1,7 @@
 ---
 title: "自用住宅購屋借款利息扣除要件"
+tax_types:
+  - 個人綜合所得稅
 date: 2026-09-08
 lastmod: 2026-09-15
 draft: false

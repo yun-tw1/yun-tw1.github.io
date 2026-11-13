@@ -1,5 +1,7 @@
 ---
 title: "國外投資損失證明文件驗證簡化"
+tax_types:
+  - 營利事業所得稅
 date: 2026-09-30
 lastmod: 2026-11-13
 draft: false

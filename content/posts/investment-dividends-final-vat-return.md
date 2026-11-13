@@ -1,5 +1,7 @@
 ---
 title: "兼營投資業務股利應列最後一期免稅銷售額"
+tax_types:
+  - 營業稅
 date: 2026-09-09
 lastmod: 2026-09-15
 draft: false

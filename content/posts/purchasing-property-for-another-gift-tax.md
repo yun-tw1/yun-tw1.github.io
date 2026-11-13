@@ -1,5 +1,7 @@
 ---
 title: "以自己資金為他人購置財產視同贈與"
+tax_types:
+  - 遺產及贈與稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

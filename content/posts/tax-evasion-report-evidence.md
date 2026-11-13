@@ -1,5 +1,7 @@
 ---
 title: "網路公開資訊不足作為逃漏稅檢舉具體事證"
+tax_types:
+  - 稅捐稽徵法
 date: 2026-09-08
 lastmod: 2026-09-15
 draft: false

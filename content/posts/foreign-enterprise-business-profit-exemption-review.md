@@ -1,5 +1,7 @@
 ---
 title: "外國營利事業免稅核准後仍應檢視常設機構門檻"
+tax_types:
+  - 營利事業所得稅
 date: 2026-09-08
 lastmod: 2026-09-15
 draft: false

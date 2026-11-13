@@ -1,5 +1,7 @@
 ---
 title: "經銷獎勵金應按進銷貨折讓處理"
+tax_types:
+  - 營利事業所得稅
 date: 2026-09-10
 lastmod: 2026-09-15
 draft: false

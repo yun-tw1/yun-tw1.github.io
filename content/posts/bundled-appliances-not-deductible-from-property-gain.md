@@ -1,5 +1,7 @@
 ---
 title: "隨屋附贈家電不得列房地交易減除項目"
+tax_types:
+  - 房地合一－個人
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

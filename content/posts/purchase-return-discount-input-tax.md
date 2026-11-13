@@ -1,5 +1,7 @@
 ---
 title: "進貨退出或折讓應於發生當期扣減進項"
+tax_types:
+  - 營業稅
 date: 2026-09-10
 lastmod: 2026-09-15
 draft: false

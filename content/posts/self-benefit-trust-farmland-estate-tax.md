@@ -1,5 +1,7 @@
 ---
 title: "自益信託農地不適用遺產稅農地扣除"
+tax_types:
+  - 遺產及贈與稅
 date: 2026-09-10
 lastmod: 2026-09-15
 draft: false

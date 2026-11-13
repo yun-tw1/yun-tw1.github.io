@@ -1,5 +1,7 @@
 ---
 title: "個人出租房屋租賃所得申報與租稅優惠"
+tax_types:
+  - 個人綜合所得稅
 date: 2026-09-30
 lastmod: 2026-11-13
 draft: false

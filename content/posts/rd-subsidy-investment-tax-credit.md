@@ -1,5 +1,7 @@
 ---
 title: "研發政府補助款應自投資抵減支出減除"
+tax_types:
+  - 營利事業所得稅
 date: 2026-09-14
 lastmod: 2026-09-15
 draft: false

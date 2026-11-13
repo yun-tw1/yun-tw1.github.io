@@ -11,6 +11,7 @@ pagination:
 taxonomies:
   category: categories
   tag: tags
+  tax_type: tax_types
 
 related:
   includeNewer: true
@@ -45,11 +46,15 @@ menu:
     - identifier: categories
       name: 分類
       url: /categories/
-      weight: 50
+      weight: 60
     - identifier: tags
       name: 標籤
       url: /tags/
-      weight: 60
+      weight: 70
+    - identifier: tax-types
+      name: 稅別
+      url: /tax_types/
+      weight: 50
 
 params:
   env: production
